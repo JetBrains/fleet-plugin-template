@@ -4,7 +4,6 @@ module fleet.sample.frontend {
     requires fleet.noria.ui;
     requires fleet.rhizomedb;
     requires fleet.frontend.ui;
-    requires fleet.run.common;
     requires fleet.sample.common;
 
     exports fleet.sample.frontend;

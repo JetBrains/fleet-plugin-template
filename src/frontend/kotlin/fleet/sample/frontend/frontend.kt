@@ -21,7 +21,8 @@ fun ChangeScope.registerOpenFleetUrlAction() {
                     ac.windowManager.openUrl("https://jetbrains.com/fleet")
                     Propagate.STOP
                 },
-                triggers = setOf(trigger)
+                triggers = setOf(trigger),
+                identifier = Action.Identifier(trigger.ident),
             )
         }
     }
