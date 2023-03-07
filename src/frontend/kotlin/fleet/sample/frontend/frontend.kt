@@ -12,11 +12,11 @@ import noria.model.Trigger
 import noria.windowManagement.extensions.openUrl
 
 @Entrypoint
-fun ChangeScope.registerOpenFleetUrlAction() {
+fun ChangeScope.entrypoint() {
     register {
         ActionsEP.register {
             Action(
-                defaultPresentation = ActionPresentation("Open Fleet"),
+                defaultPresentation = ActionPresentation("Open Fleet Website"),
                 perform = { ac ->
                     ac.windowManager.openUrl("https://jetbrains.com/fleet")
                     Propagate.STOP
