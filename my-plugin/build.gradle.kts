@@ -15,6 +15,8 @@ version = "0.1.0"
 // Read the documentation here (for JetBrains internal use only for now)
 // https://jetbrains.team/p/ij/repositories/intellij/files/fleet/gradle-plugin/README.md#dsl
 fleetPlugin {
+    id = "my.super.plugin"
+
     metadata {
         vendor = "<put your name/vendor string here>"
         readableName = "<choose a unique readable name for your plugin>"
