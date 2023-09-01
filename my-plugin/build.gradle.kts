@@ -1,6 +1,6 @@
 plugins {
     id("org.jetbrains.kotlin.jvm") version "1.8.21"
-    id("org.jetbrains.fleet-plugin") version "0.2.72"
+    id("org.jetbrains.fleet-plugin") version "0.2.87"
 }
 
 repositories {
@@ -18,9 +18,12 @@ fleetPlugin {
     id = "my.super.plugin"
 
     metadata {
-        vendor = "<put your name/vendor string here>"
         readableName = "<choose a unique readable name for your plugin>"
         description = "<add what your plugin is doing>"
+    }
+
+    publishing {
+        vendorId = "<put your vendor id string here>"
     }
 
     fleetRuntime {
