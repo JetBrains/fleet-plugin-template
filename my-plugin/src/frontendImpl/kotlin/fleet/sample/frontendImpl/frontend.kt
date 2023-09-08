@@ -13,15 +13,14 @@ import fleet.kernel.ChangeScope
 import fleet.kernel.plugins.register
 import noria.model.CommonDataKeys
 import noria.model.Trigger
-import noria.model.buildAction
 import noria.windowManagement.extensions.openUrl
 
 @Entrypoint
 fun ChangeScope.registerOpenFleetUrlAction() {
     // this is a dummy action and settings registering, do not keep this code
     register {
-        actions(
-            buildAction(id = OpenFleetActionIds.OpenFleetWebsite.id, "Open Fleet Website") {
+        actions {
+            action(id = OpenFleetActionIds.OpenFleetWebsite.id, "Open Fleet Website") {
                 val windowManager = require(CommonDataKeys.WindowManagerActionDataKey)
                 trigger(OpenFleetTriggers.OpenFleetWebsite.trigger)
                 callback {
@@ -29,7 +28,7 @@ fun ChangeScope.registerOpenFleetUrlAction() {
                     windowManager.value.openUrl(url)
                 }
             }
-        )
+        }
 
         settings {
             setting(fleetWebsiteLanguageSettingsKey) {
