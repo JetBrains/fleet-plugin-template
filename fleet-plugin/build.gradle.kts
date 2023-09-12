@@ -19,7 +19,7 @@ fleetPlugin {
     //
     // id = "my.super.plugin"
 
-    // STEP 2: set up the mandatory metadata for your plugin
+    // STEP 2: set up the sensible metadata for your plugin
     //
     // metadata {
     //     readableName = "<choose a unique readable name for your plugin>"
