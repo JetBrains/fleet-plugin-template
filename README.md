@@ -6,10 +6,13 @@
 **Fleet Plugin Template** is a repository that provides a template to make it easier to create a new plugin project for
 Fleet (check the [Creating a repository from a template][gh:template] article).
 
-# 🚧 **Under construction**
+## 🚧 **Under construction**
 
 Creating Fleet plugins is not yet supported, using this repository will **not** work yet.
 Stay tuned!
 
 [gh:template]: https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template
 
+## Some examples
+
+- Fleet plugin with a Fleet Backend plugin: [Gradle Daemons Services](https://github.com/vladsoroka/gradle-daemons-services)
