@@ -1,5 +1,5 @@
 rootProject.name = "fleet-plugin-template"
-include("my-plugin")
+include("fleet-plugin")
 
 pluginManagement {
     repositories {
