@@ -1,6 +1,6 @@
 plugins {
     id("org.jetbrains.kotlin.jvm") version "1.8.21"
-    id("org.jetbrains.fleet-plugin") version "0.2.96"
+    id("org.jetbrains.fleet-plugin") version "0.2.104"
 }
 
 repositories {
@@ -27,7 +27,7 @@ fleetPlugin {
     // }
 
     fleetRuntime {
-        version = "1.23.173"
+        version = "1.25.206"
     }
 
     // STEP 3 (optional): declare external dependency or configuration on layers

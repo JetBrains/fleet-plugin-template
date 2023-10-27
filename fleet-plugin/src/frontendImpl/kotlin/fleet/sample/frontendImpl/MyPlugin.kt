@@ -2,26 +2,27 @@
 // if your plugin has no frontend part (which is rare), remove the `src/frontendImpl` directory
 package fleet.sample.frontendImpl
 
-import com.jetbrains.rhizomedb.Entrypoint
 import fleet.common.settings.SettingsKey
 import fleet.common.settings.SettingsLocation
 import fleet.common.settings.querySettingsKey
 import fleet.frontend.actions.actions
 import fleet.frontend.settings.SettingsGroups
 import fleet.frontend.settings.settings
-import fleet.kernel.ChangeScope
-import fleet.kernel.plugins.register
+import fleet.kernel.plugins.*
 import noria.model.CommonDataKeys
 import noria.model.Trigger
 import noria.windowManagement.extensions.openUrl
 
-@Entrypoint
-fun ChangeScope.registerOpenFleetUrlAction() {
-    // this is a dummy action and settings registering, do not keep this code
-    register {
+class MyPlugin : Plugin<API> {
+    companion object : Plugin.Key<API>
+
+    override val key: Plugin.Key<API> = MyPlugin
+
+    override fun ContributionScope.load(pluginScope: PluginScope): API = API().also {
+        // this is a dummy action and settings registering, do not keep this code
         actions {
             action(id = OpenFleetActionIds.OpenFleetWebsite.id, "Open Fleet Website") {
-                val windowManager = require(CommonDataKeys.WindowManagerActionDataKey)
+                val windowManager = required(CommonDataKeys.WindowManagerActionDataKey)
                 trigger(OpenFleetTriggers.OpenFleetWebsite.trigger)
                 callback {
                     val url = querySettingsKey(fleetWebsiteLanguageSettingsKey).toUrl()
