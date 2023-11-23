@@ -5,14 +5,14 @@ package fleet.sample.workspaceImpl
 import fleet.kernel.plugins.*
 import fleet.util.logging.logger
 
-class MyWorkspacePlugin : Plugin<API> {
-    companion object : Plugin.Key<API> {
+class MyWorkspacePlugin : Plugin<Unit> {
+    companion object : Plugin.Key<Unit> {
         val logger = logger<MyWorkspacePlugin>()
     }
 
-    override val key: Plugin.Key<API> = MyWorkspacePlugin
+    override val key: Plugin.Key<Unit> = MyWorkspacePlugin
 
-    override fun ContributionScope.load(pluginScope: PluginScope): API = API().also {
+    override fun ContributionScope.load(pluginScope: PluginScope) {
         // register workspace-related things here, and remove the dummy log line
         logger.info { "loading stuff of MyWorkspacePlugin" }
     }

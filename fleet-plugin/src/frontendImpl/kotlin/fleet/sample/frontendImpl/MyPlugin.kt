@@ -13,12 +13,12 @@ import noria.model.CommonDataKeys
 import noria.model.Trigger
 import noria.windowManagement.extensions.openUrl
 
-class MyPlugin : Plugin<API> {
-    companion object : Plugin.Key<API>
+class MyPlugin : Plugin<Unit> {
+    companion object : Plugin.Key<Unit>
 
-    override val key: Plugin.Key<API> = MyPlugin
+    override val key: Plugin.Key<Unit> = MyPlugin
 
-    override fun ContributionScope.load(pluginScope: PluginScope): API = API().also {
+    override fun ContributionScope.load(pluginScope: PluginScope) {
         // this is a dummy action and settings registering, do not keep this code
         actions {
             action(id = OpenFleetActionIds.OpenFleetWebsite.id, "Open Fleet Website") {
