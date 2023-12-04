@@ -1,6 +1,6 @@
 plugins {
     id("org.jetbrains.kotlin.jvm") version "1.9.20"
-    id("org.jetbrains.fleet-plugin") version "0.3.120"
+    id("org.jetbrains.fleet-plugin") version "0.3.126"
 }
 
 repositories {
