@@ -17,7 +17,7 @@ fleetPlugin {
 
     // STEP 1: chose an ID for your plugin, it must be unique
     //
-    id = "my.super.plugin"
+    // id = "my.super.plugin"
 
     // STEP 2: set up the sensible metadata for your plugin
     //
