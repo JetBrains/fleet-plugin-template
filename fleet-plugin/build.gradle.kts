@@ -27,7 +27,7 @@ fleetPlugin {
     // }
 
     fleetRuntime {
-        version = "1.36.104"
+        version = "1.37.56"
     }
 
     // STEP 3 (optional): declare external dependency or configuration on layers
