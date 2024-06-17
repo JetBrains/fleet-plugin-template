@@ -12,14 +12,18 @@ import fleet.kernel.plugins.*
 import noria.model.CommonDataKeys
 import noria.model.Trigger
 import noria.windowManagement.extensions.openUrl
+import fleet.util.logging.logger
 
 class MyPlugin : Plugin<Unit> {
-    companion object : Plugin.Key<Unit>
+    companion object : Plugin.Key<Unit> {
+        val logger = logger<MyPlugin>()
+    }
 
     override val key: Plugin.Key<Unit> = MyPlugin
 
     override fun ContributionScope.load(pluginScope: PluginScope) {
-        // this is a dummy action and settings registering, do not keep this code
+        // TODO: this is a dummy action and settings registering, do not keep this code
+        logger.info { "Loading MyPlugin" }
         actions {
             action(id = OpenFleetActionIds.OpenFleetWebsite.id, "Open Fleet Website") {
                 val windowManager = required(CommonDataKeys.WindowManagerActionDataKey)

@@ -13,7 +13,7 @@ class MyWorkspacePlugin : Plugin<Unit> {
     override val key: Plugin.Key<Unit> = MyWorkspacePlugin
 
     override fun ContributionScope.load(pluginScope: PluginScope) {
-        // register workspace-related things here, and remove the dummy log line
-        logger.info { "loading stuff of MyWorkspacePlugin" }
+        // TODO: register workspace-related things here, and remove the dummy log line
+        logger.info { "Loading MyWorkspacePlugin" }
     }
 }
