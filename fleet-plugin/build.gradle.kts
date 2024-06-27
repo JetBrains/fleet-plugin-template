@@ -1,5 +1,5 @@
 plugins {
-    `base`
+    base
     id("org.jetbrains.fleet-plugin")
 }
 
