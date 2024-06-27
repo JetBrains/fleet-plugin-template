@@ -1,5 +1,3 @@
-// this can be remove safely, the whole `src/workspaceImpl` is for demo purposes
-// if you don't need to declare anything on the workspace side, remove the `src/workspaceImpl` directory
 package fleet.sample.workspaceImpl
 
 import fleet.kernel.plugins.*

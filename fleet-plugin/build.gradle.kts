@@ -1,12 +1,14 @@
 plugins {
-    id("org.jetbrains.kotlin.jvm") version "1.9.24"
-    id("org.jetbrains.fleet-plugin") version "0.4.215"
+    `base`
+    id("org.jetbrains.fleet-plugin")
 }
 
-repositories {
-    mavenCentral()
-    // needed to retrieve `rhizomedb-compiler-plugin` and `noria-compiler-plugin`
-    maven("https://cache-redirector.jetbrains.com/intellij-dependencies")
+listOf(
+    repositories,
+    *subprojects.map { it.repositories }.toTypedArray()
+).forEach {
+    it.mavenCentral()
+    it.maven("https://cache-redirector.jetbrains.com/intellij-dependencies") // needed to retrieve `rhizomedb-compiler-plugin` and `noria-compiler-plugin`
 }
 
 version = "0.1.0"
@@ -17,7 +19,7 @@ fleetPlugin {
 
     // STEP 1: chose an ID for your plugin, it must be unique
     //
-    // id = "my.super.plugin"
+    // id = "my.sample.plugin"
 
     // STEP 2: set up the sensible metadata for your plugin
     //
@@ -26,17 +28,9 @@ fleetPlugin {
     //     description = "<add what your plugin is doing>"
     // }
 
+    // STEP 3: see each `build.gradle.kts` of each layer directory `commonImpl/build.gradle.kts`, `frontendImpl/build.gradle.kts`, `workspaceImpl/build.gradle.kts`
+
     fleetRuntime {
         version = "1.37.56"
     }
-
-    // STEP 3 (optional): declare external dependency or configuration on layers
-    //
-    // layers {
-    //     frontendImpl {
-    //         dependencies {
-    //             api("my-cool:external-dependency:1.0.0")
-    //         }
-    //     }
-    // }
 }

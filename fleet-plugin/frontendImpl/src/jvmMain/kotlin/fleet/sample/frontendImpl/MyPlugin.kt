@@ -1,5 +1,3 @@
-// Remove safely if not needed, the whole `src/frontendImpl` is for demo purposes
-// if your plugin has no frontend part (which is rare), remove the `src/frontendImpl` directory
 package fleet.sample.frontendImpl
 
 import fleet.common.settings.SettingsKey
