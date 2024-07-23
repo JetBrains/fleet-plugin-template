@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "theme.name": "Sample Theme",
+        "theme.kind": "Dark"
+    },
+    "colors": {
+        "mainToolbar.background": "Dark Green"
+    },
+    "textAttributes": {
+        "editor.text.scheme": {
+            "foregroundColor": "#00AA00"
+        },
+        
+        "editor.selection.focused": {
+            "backgroundColor": "#00ff00",
+            "foregroundColor": "Dark Green"
+        }
+    },
+    "palette": {
+        "Dark Green": "#006600"
+    }
+}

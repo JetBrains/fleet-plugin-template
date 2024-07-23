@@ -2,8 +2,6 @@ rootProject.name = "fleet-plugin-template"
 
 include(":fleet-plugin")
 include(":fleet-plugin:frontendImpl")
-include(":fleet-plugin:workspaceImpl")
-include(":fleet-plugin:commonImpl")
 
 pluginManagement {
     repositories {

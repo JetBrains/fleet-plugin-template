@@ -12,4 +12,3 @@ Creating Fleet plugins is not yet supported, using this repository will **not** 
 Stay tuned!
 
 [gh:template]: https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template
-
