@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "theme.name": "Example theme: green tab colors",
+    "theme.kind": "Dark"
+  },
+  "colors": {
+    "tab.background.default": "#081F19",
+    "tab.background.hovered": "#0E3127",
+    "tab.background.selected": "#134939",
+    "tab.indicator": "#07805F",
+    
+    "popup.tab.background.default": "#ECF5F1",
+    "popup.tab.background.hovered": "#C7ECDC",
+    "popup.tab.background.selected": "#91D2B8",
+    "popup.tab.indicator": "#07805F"
+  }
+}
+    

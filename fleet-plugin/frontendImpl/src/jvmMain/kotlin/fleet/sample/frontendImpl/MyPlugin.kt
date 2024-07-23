@@ -12,6 +12,9 @@ class MyPlugin : Plugin<Unit> {
     override val key: Plugin.Key<Unit> = MyPlugin
 
     override fun ContributionScope.load(pluginScope: PluginScope) {
-        newTheme(ThemeId(ident = "SampleTheme"))
+        newTheme(ThemeId(ident = "example-blue-background-tint"))
+        newTheme(ThemeId(ident = "example-green-tab-colors"))
+        newTheme(ThemeId(ident = "example-high-contrast-text"))
+        newTheme(ThemeId(ident = "example-no-syntax-highlighting"))
     }
 }

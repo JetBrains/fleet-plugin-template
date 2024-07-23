@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "theme.name": "Example theme: no syntax highlighting",
+    "theme.kind": "Light",
+    "theme.version": 8
+  },
+  "colors": {
+  },
+  "text-attributes": {
+    "editor.selection": {
+      "backgroundColor": "Gray 80"
+    },
+    "editor.selection.focused": {
+      "backgroundColor": "#A3D1FF"
+    },
+    "editor.search.results": {
+      "backgroundColor": "Yellow 40",
+      "statusColor": "#ED8013"
+    },
+    "editor.rename.entries": {
+      "backgroundColor": "Green 80"
+    },
+    "editor.rename.current": {
+      "border": {
+        "color": "Blue 50"
+      }
+    },
+    "editor.brace.match": {
+      "backgroundColor": "#A0D8D5"
+    },
+    "editor.indentGuide": {
+      "foregroundColor": "Gray 90",
+      "textDecoration": {
+        "style": "DASHED"
+      }
+    },
+    "editor.indentGuide.current": {
+      "foregroundColor": "Gray 70",
+      "textDecoration": {
+        "style": "DASHED"
+      }
+    },
+    "editor.indentGuide.declaration": {
+      "foregroundColor": "Gray 100"
+    },
+    "editor.indentGuide.declaration.current": {
+      "foregroundColor": "Gray 70"
+    },
+    "diff.added": {
+      "backgroundColor": "#DFF5EB"
+    },
+    "diff.added.word": {
+      "backgroundColor": "#ABD9C7"
+    },
+    "diff.added.withBorder": {
+      "backgroundColor": "#DFF5EB",
+      "border": {
+        "color": "#A9D6C6"
+      }
+    },
+    "diff.added.empty": {
+      "backgroundColor": "#21AB7C"
+    },
+    "diff.added.resolved": {
+      "backgroundColor": "Transparent",
+      "border": {
+        "color": "#A9D6C6"
+      }
+    },
+    "diff.deleted": {
+      "backgroundColor": "#FCEAEE"
+    },
+    "diff.deleted.word": {
+      "backgroundColor": "#FACFD7"
+    },
+    "diff.deleted.withBorder": {
+      "backgroundColor": "#FCEAEE",
+      "border": {
+        "color": "Red 70"
+      }
+    },
+    "diff.deleted.empty": {
+      "backgroundColor": "Red 40"
+    },
+    "diff.deleted.resolved": {
+      "backgroundColor": "Transparent",
+      "border": {
+        "color": "Red 70"
+      }
+    },
+    "diff.modified": {
+      "backgroundColor": "#E1EDFA"
+    },
+    "diff.modified.word": {
+      "backgroundColor": "Blue 70"
+    },
+    "diff.modified.withBorder": {
+      "backgroundColor": "#E1EDFA",
+      "border": {
+        "color": "Blue 70"
+      }
+    },
+    "diff.modified.resolved": {
+      "backgroundColor": "Transparent",
+      "border": {
+        "color": "Blue 70"
+      }
+    },
+    "diff.conflict.withBorder": {
+      "backgroundColor": "#FCF4E3",
+      "border": {
+        "color": "#EBD1A9"
+      }
+    },
+    "diff.conflict.resolved": {
+      "backgroundColor": "Transparent",
+      "border": {
+        "color": "#EBD1A9"
+      }
+    },
+    "refactoring.modified.code": {
+      "backgroundColor": "Green 80"
+    },
+    "problem.error": {
+      "textDecoration": {
+        "color": "#E81237",
+        "style": "SOLID",
+        "type": "UNDERLINE",
+        "thickness": 2.0
+      }
+    },
+    "problem.error.badCharacter": {
+      "textDecoration": {
+        "color": "#E81237",
+        "style": "SOLID",
+        "type": "UNDERLINE",
+        "thickness": 2.0
+      }
+    },
+    "problem.warning": {
+      "textDecoration": {
+        "color": "#EBAE36",
+        "style": "SOLID",
+        "type": "UNDERLINE",
+        "thickness": 2.0
+      }
+    },
+    "problem.warning.weak": {
+      "textDecoration": {
+        "color": "#D9D0BF",
+        "style": "SOLID",
+        "type": "UNDERLINE",
+        "thickness": 2.0
+      }
+    },
+    "problem.deprecated": {
+      "textDecoration": {
+        "color": "Gray 10",
+        "style": "SOLID",
+        "type": "LINE_THROUGH",
+        "thickness": 1.0
+      }
+    },
+    "problem.info": {
+      "textDecoration": {
+        "color": "#A366C4",
+        "style": "SOLID",
+        "type": "UNDERLINE",
+        "thickness": 1.0
+      }
+    },
+    "problem.unknown": {},
+    "problem.unused": {
+      "foregroundColor": "Gray 40"
+    }
+  }
+}

@@ -1,0 +1,69 @@
+    {
+    "meta": {
+      "theme.name": "Example theme: blue background tint",
+      "theme.kind": "Light",
+      "theme.version": 8
+    },
+    "colors": {
+      "background.dimmed": "Blue 110",
+      "background.primary": "Blue 110",
+        
+      "button.secondary.background.default": "Blue 110",
+      "button.secondary.background.disabled": "Blue 110",
+      "button.secondary.background.hovered": "Blue 90",
+      "button.secondary.background.pressed": "Blue 80",
+      
+      "editor.background": "Blue 110",
+      
+      "inputField.background.default": "Blue 110",
+      "inputField.background.error": "Blue 110",
+      
+      "inputField.selectionBackground.default": "Blue 80",
+      "inputField.selectionBackground.error": "Blue 80",
+      
+      "listItem.background.default": "Blue 110",
+      "listItem.background.focused": "Blue 90",
+      "listItem.background.dnd": "Blue 70",
+      
+      "mainToolbar.background": "Blue 110",
+      
+      "notification.background.default": "Blue 110",
+      "notification.background.unread": "Blue 90",
+      
+      "popup.background": "Blue 110",
+      "popup.editor.background": "Blue 110",
+      
+      "popup.tab.background.default": "Blue 110",
+      "popup.tab.background.hovered": "Blue 100",
+      "popup.tab.background.selected": "Blue 90",
+      
+      "popup.tab.indicator": "Blue 20",
+      
+      "popup.tabPanel.background": "Blue 110",
+      
+      "popup.listItem.background.default": "Blue 110",
+      "popup.listItem.background.focused": "Blue 90",
+  
+      "statusBar.background": "Blue 110",
+      
+      "tab.background.default": "Blue 110",
+      "tab.background.hovered": "Blue 100",
+      "tab.background.selected": "Blue 90",
+      
+      "tab.indicator": "Blue 20",
+      
+      "tabPanel.background": "Blue 110-80",
+      
+      "tool.background": "Blue 110"
+    },
+    "palette": {
+      "White": "#FFFFFF",
+      "Blue 110-80": "#F4F8FDCC",
+      "Blue 110": "#F4F8FD",
+      "Blue 100": "#EDF4FC",
+      "Blue 90": "#D8E8FA",
+      "Blue 80": "#BFD9F8",
+      "Blue 70": "#A2C8F7",
+      "Blue 20": "#0C6DDD"
+    }
+  }
