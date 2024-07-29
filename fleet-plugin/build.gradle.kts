@@ -1,6 +1,6 @@
 plugins {
     base
-    id("org.jetbrains.fleet-plugin")
+    alias(libs.plugins.fleet.plugin)
 }
 
 listOf(
@@ -26,6 +26,6 @@ fleetPlugin {
     // }
 
     fleetRuntime {
-        version = "1.37.56"
+        version = libs.versions.fleet.runtime
     }
 }

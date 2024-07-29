@@ -1,6 +1,6 @@
 plugins {
-    kotlin("multiplatform")
-    id("org.jetbrains.fleet-plugin-layer")
+    alias(libs.plugins.kotlin.multiplatform)
+    alias(libs.plugins.fleet.plugin.layer)
 }
 
 kotlin {

@@ -1,4 +1,5 @@
 plugins {
-    kotlin("multiplatform") version "1.9.24" apply false
-    id("org.jetbrains.fleet-plugin") version "0.5.223" apply false
+    alias(libs.plugins.kotlin.multiplatform) apply false
+    alias(libs.plugins.fleet.plugin) apply false
+    alias(libs.plugins.fleet.plugin.layer) apply false
 }

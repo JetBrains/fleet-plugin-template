@@ -10,5 +10,6 @@ class MyPlugin : Plugin<Unit> {
     override val key: Plugin.Key<Unit> = MyPlugin
 
     override fun ContributionScope.load(pluginScope: PluginScope) {
+        // your plugin code here
     }
 }
