@@ -4,8 +4,7 @@ plugins {
 }
 
 repositories {
-    it.mavenCentral()
-    it.maven("https://cache-redirector.jetbrains.com/intellij-dependencies") // needed to retrieve `rhizomedb-compiler-plugin` and `noria-compiler-plugin`
+    mavenCentral()
 }
 
 version = "0.1.0"
