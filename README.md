@@ -1,4 +1,4 @@
-# fleet-template-plugin
+# fleet-plugin-template
 
 [![JetBrains official project](http://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
 [![GitHub license](https://img.shields.io/badge/license-APACHE_2.0-blue.svg)](https://github.com/JetBrains/fleet-plugin-template/blob/main/LICENSE.md)
