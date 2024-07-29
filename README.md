@@ -6,19 +6,11 @@
 **Fleet Plugin Template** is a repository that provides a template to make it easier to create a new plugin project for
 Fleet.
 
-## Tutorials
-
-Here is a list of tutorials on how to use this repository to build plugins for Fleet:
-
-- [Build your own theme plugin](docs/THEME_PLUGIN_TUTORIAL.md)
-
-## Documentations
-
-- [Theme Documentation][TODO]
-- [Fleet Plugin SDK Documentation][TODO]
-
-## 🚧 Coming later 🚧
-
-More extension points of Fleet will be opened in the future, allowing more use cases to be covered, not only themes!
+- [Example Fleet plugins][fleet:example-plugins]
+- [Tutorials on how to create Fleet plugins][fleet:tutorials]
+- [Fleet Plugin SDK Documentation][fleet:sdk-documentation]
 
 [gh:template]: https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template
+[fleet:sdk-documentation]: https://github.com/JetBrains/fleet-sdk-gradle-plugin
+[fleet:example-plugins]: https://github.com/JetBrains/fleet-sdk-gradle-plugin/tree/main/example-plugins
+[fleet:tutorials]: https://github.com/JetBrains/fleet-sdk-gradle-plugin/tree/main/docs/tutorials
