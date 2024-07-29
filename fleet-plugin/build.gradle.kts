@@ -17,12 +17,12 @@ fleetPlugin {
 
     // STEP 1: chose an ID for your plugin, it must be unique
     //
-    id = "my.sample.theme"
+    // id = "my.sample.plugin"
 
     // STEP 2: set up the sensible metadata for your plugin
     // metadata {
-    //     readableName = "Sample Theme"
-    //     description = "Sample Theme Plugin"
+    //     readableName = "My Sample Plugin"
+    //     description = "A sample plugin"
     // }
 
     fleetRuntime {
