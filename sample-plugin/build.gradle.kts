@@ -3,10 +3,7 @@ plugins {
     alias(libs.plugins.fleet.plugin)
 }
 
-listOf(
-    repositories,
-    *subprojects.map { it.repositories }.toTypedArray()
-).forEach {
+repositories {
     it.mavenCentral()
     it.maven("https://cache-redirector.jetbrains.com/intellij-dependencies") // needed to retrieve `rhizomedb-compiler-plugin` and `noria-compiler-plugin`
 }
