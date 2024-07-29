@@ -6,5 +6,5 @@ module fleet.sample.frontendImpl {
     requires fleet.frontend.ui;
 
     exports fleet.sample.frontendImpl;
-    provides fleet.kernel.plugins.Plugin with fleet.sample.frontendImpl.SamplePlugin;
+    provides fleet.kernel.plugins.Plugin with fleet.sample.frontendImpl.MyPlugin;
 }
