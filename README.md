@@ -10,4 +10,4 @@ Fleet.
 - [Example Fleet plugins][fleet:example-plugins]
 
 [fleet:sdk-documentation]: https://github.com/JetBrains/fleet-sdk-gradle-plugin
-[fleet:example-plugins]: https://github.com/JetBrains/fleet-sdk-gradle-plugin/tree/main/example-plugins
+[fleet:example-plugins]: https://github.com/JetBrains/fleet-sdk-gradle-plugin/tree/main/examples
