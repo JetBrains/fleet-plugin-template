@@ -20,10 +20,4 @@ fleetPlugin {
     fleetRuntime {
         version = libs.versions.fleet.runtime
     }
-
-    // STEP 3: add publishing information
-    // publishing {
-    //     licenseUrl = "your-license-url-here"
-    //     sourceCodeUrl = "your-source-repository-url-here"
-    // }
 }
